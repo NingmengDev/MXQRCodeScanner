@@ -11,6 +11,15 @@
 		2D1E2F491CD4910A000F3ADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F481CD4910A000F3ADA /* AppDelegate.m */; };
 		2D1E2F4B1CD4910A000F3ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E2F4A1CD4910A000F3ADA /* Assets.xcassets */; };
 		2D1E2F4E1CD4910A000F3ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E2F4C1CD4910A000F3ADA /* LaunchScreen.storyboard */; };
+		2D1E2F571CD4911B000F3ADA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F561CD4911B000F3ADA /* MainViewController.m */; };
+		2D1E2F681CD491C4000F3ADA /* MXQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F5A1CD491C4000F3ADA /* MXQRCode.m */; };
+		2D1E2F691CD491C4000F3ADA /* MXQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F5C1CD491C4000F3ADA /* MXQRCodeController.m */; };
+		2D1E2F6A1CD491C4000F3ADA /* MXQRCodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D1E2F5D1CD491C4000F3ADA /* MXQRCodeScanner.bundle */; };
+		2D1E2F6B1CD491C4000F3ADA /* MXQRCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F5F1CD491C4000F3ADA /* MXQRCodeScanner.m */; };
+		2D1E2F6C1CD491C4000F3ADA /* MXScannerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F611CD491C4000F3ADA /* MXScannerContentView.m */; };
+		2D1E2F6D1CD491C4000F3ADA /* MXScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F631CD491C4000F3ADA /* MXScannerController.m */; };
+		2D1E2F6E1CD491C4000F3ADA /* MXSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F651CD491C4000F3ADA /* MXSNavigationController.m */; };
+		2D1E2F6F1CD491C4000F3ADA /* UIViewController+MXQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E2F671CD491C4000F3ADA /* UIViewController+MXQRCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +30,23 @@
 		2D1E2F4A1CD4910A000F3ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1E2F4D1CD4910A000F3ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D1E2F4F1CD4910A000F3ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1E2F551CD4911B000F3ADA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2D1E2F561CD4911B000F3ADA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2D1E2F591CD491C4000F3ADA /* MXQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQRCode.h; sourceTree = "<group>"; };
+		2D1E2F5A1CD491C4000F3ADA /* MXQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQRCode.m; sourceTree = "<group>"; };
+		2D1E2F5B1CD491C4000F3ADA /* MXQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQRCodeController.h; sourceTree = "<group>"; };
+		2D1E2F5C1CD491C4000F3ADA /* MXQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQRCodeController.m; sourceTree = "<group>"; };
+		2D1E2F5D1CD491C4000F3ADA /* MXQRCodeScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MXQRCodeScanner.bundle; sourceTree = "<group>"; };
+		2D1E2F5E1CD491C4000F3ADA /* MXQRCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQRCodeScanner.h; sourceTree = "<group>"; };
+		2D1E2F5F1CD491C4000F3ADA /* MXQRCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQRCodeScanner.m; sourceTree = "<group>"; };
+		2D1E2F601CD491C4000F3ADA /* MXScannerContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXScannerContentView.h; sourceTree = "<group>"; };
+		2D1E2F611CD491C4000F3ADA /* MXScannerContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXScannerContentView.m; sourceTree = "<group>"; };
+		2D1E2F621CD491C4000F3ADA /* MXScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXScannerController.h; sourceTree = "<group>"; };
+		2D1E2F631CD491C4000F3ADA /* MXScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXScannerController.m; sourceTree = "<group>"; };
+		2D1E2F641CD491C4000F3ADA /* MXSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSNavigationController.h; sourceTree = "<group>"; };
+		2D1E2F651CD491C4000F3ADA /* MXSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSNavigationController.m; sourceTree = "<group>"; };
+		2D1E2F661CD491C4000F3ADA /* UIViewController+MXQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MXQRCode.h"; sourceTree = "<group>"; };
+		2D1E2F671CD491C4000F3ADA /* UIViewController+MXQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MXQRCode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +79,11 @@
 		2D1E2F431CD4910A000F3ADA /* MXQRCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				2D1E2F581CD491C4000F3ADA /* MXQRCodeScanner */,
 				2D1E2F471CD4910A000F3ADA /* AppDelegate.h */,
 				2D1E2F481CD4910A000F3ADA /* AppDelegate.m */,
+				2D1E2F551CD4911B000F3ADA /* MainViewController.h */,
+				2D1E2F561CD4911B000F3ADA /* MainViewController.m */,
 				2D1E2F4A1CD4910A000F3ADA /* Assets.xcassets */,
 				2D1E2F4C1CD4910A000F3ADA /* LaunchScreen.storyboard */,
 				2D1E2F4F1CD4910A000F3ADA /* Info.plist */,
@@ -69,6 +98,28 @@
 				2D1E2F451CD4910A000F3ADA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D1E2F581CD491C4000F3ADA /* MXQRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				2D1E2F591CD491C4000F3ADA /* MXQRCode.h */,
+				2D1E2F5A1CD491C4000F3ADA /* MXQRCode.m */,
+				2D1E2F5B1CD491C4000F3ADA /* MXQRCodeController.h */,
+				2D1E2F5C1CD491C4000F3ADA /* MXQRCodeController.m */,
+				2D1E2F5D1CD491C4000F3ADA /* MXQRCodeScanner.bundle */,
+				2D1E2F5E1CD491C4000F3ADA /* MXQRCodeScanner.h */,
+				2D1E2F5F1CD491C4000F3ADA /* MXQRCodeScanner.m */,
+				2D1E2F601CD491C4000F3ADA /* MXScannerContentView.h */,
+				2D1E2F611CD491C4000F3ADA /* MXScannerContentView.m */,
+				2D1E2F621CD491C4000F3ADA /* MXScannerController.h */,
+				2D1E2F631CD491C4000F3ADA /* MXScannerController.m */,
+				2D1E2F641CD491C4000F3ADA /* MXSNavigationController.h */,
+				2D1E2F651CD491C4000F3ADA /* MXSNavigationController.m */,
+				2D1E2F661CD491C4000F3ADA /* UIViewController+MXQRCode.h */,
+				2D1E2F671CD491C4000F3ADA /* UIViewController+MXQRCode.m */,
+			);
+			path = MXQRCodeScanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D1E2F4B1CD4910A000F3ADA /* Assets.xcassets in Resources */,
+				2D1E2F6A1CD491C4000F3ADA /* MXQRCodeScanner.bundle in Resources */,
 				2D1E2F4E1CD4910A000F3ADA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1E2F681CD491C4000F3ADA /* MXQRCode.m in Sources */,
+				2D1E2F6F1CD491C4000F3ADA /* UIViewController+MXQRCode.m in Sources */,
 				2D1E2F491CD4910A000F3ADA /* AppDelegate.m in Sources */,
+				2D1E2F691CD491C4000F3ADA /* MXQRCodeController.m in Sources */,
+				2D1E2F6D1CD491C4000F3ADA /* MXScannerController.m in Sources */,
+				2D1E2F571CD4911B000F3ADA /* MainViewController.m in Sources */,
 				2D1E2F461CD4910A000F3ADA /* main.m in Sources */,
+				2D1E2F6E1CD491C4000F3ADA /* MXSNavigationController.m in Sources */,
+				2D1E2F6C1CD491C4000F3ADA /* MXScannerContentView.m in Sources */,
+				2D1E2F6B1CD491C4000F3ADA /* MXQRCodeScanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
